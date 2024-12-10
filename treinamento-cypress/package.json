@@ -1,0 +1,27 @@
+{
+  "name": "treinamento-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "cypress": "^13.2.0",
+    "relatorio": "^1.0.1"
+  },
+  "reporter": "relatorio",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": true,
+    "html": true,
+    "json": true
+  }
+}
